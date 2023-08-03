@@ -1,0 +1,64 @@
+.container{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(146, 142, 146);
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 300px;
+      
+}
+.title{
+    background-color:cadetblue;
+    display: flex;
+    align-items: center;
+}
+.title h{
+    font-size:xx-large;
+    text-align: center;
+    width: 860px;
+}
+.logo{
+    width: 40px;
+    height: 50px;
+    align-items: flex-end;
+}
+#celcius,#fahrenheit ,#kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+input{
+    flex:5;
+    height:50px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 18px 0 0 18px;
+    padding:0px 10px;    
+    margin-left: 60px;
+}
+.icon{
+    flex: 1;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(235, 130, 130);
+    color: beige;
+
+}
+.button{
+    margin-top:35px ;
+   text-align: center;
+}
+.button button{
+    border: none;
+    padding: 15px 40px;
+    font-size:larger;
+    font-weight:bold;
+}
+.button button:hover{
+    background: #000;
+    color: aliceblue;
+}
